@@ -1,3 +1,4 @@
+const functions = require('firebase-functions');
 const db = require('../config/database/firebase');
 
 exports.onUserCreate = functions.firestore.document('users/{id}')
